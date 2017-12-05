@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background: tan;
+    color: black;
+    font-family: cursive;
+}
+
+h1 {
+    margin-top: 100px;
+}
+
+ul {
+    display: inline-block;
+    cursor: move;
+    text-align: left;
+    width: 300px;
+    max-width: 100%;
+}
+
+li {
+    color: black;
+}
+
+li:first-child {
+    font-size: 130%;
+    color: white;
+}
+
+input[type='submit'] {
+    background-color: brown;
+    border: 0;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
